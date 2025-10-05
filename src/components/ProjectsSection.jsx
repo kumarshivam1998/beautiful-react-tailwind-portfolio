@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
+    title: "Nexus AI Landing Page",
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://nexus-ai-website-delta.vercel.app/",
+    githubUrl: "https://github.com/kumarshivam1998/nexus-ai-website",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Cult Music App",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "A beginner-friendly React.js app to explore and learn music with a sleek, cult-inspired UI. The app features curated YouTube video recommendations, structured learning sections, and an engaging design to make music learning both fun and aesthetic.",
     image: "/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://cult-music-66uodor34-kumarshivam1998s-projects.vercel.app/",
+    githubUrl: "https://github.com/kumarshivam1998/cult-music-app",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Online Collaborative Whiteboard",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A real-time whiteboard built with React.js, Tailwind/shadcn UI, and Socket.IO. Users can draw, erase, and collaborate on the same canvas instantly across multiple devices. Features include live updates, room support, undo/redo, and session history so new users see the current board state.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Node.js", "Socket IO"],
+    demoUrl: "https://whiteboard-fnhkakuap-kumarshivam1998s-projects.vercel.app/",
+    githubUrl: "https://github.com/kumarshivam1998/online-whiteboard",
   },
 ];
 
