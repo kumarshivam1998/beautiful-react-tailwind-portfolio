@@ -17,7 +17,7 @@ const projects = [
       "A beginner-friendly React.js app to explore and learn music with a sleek, cult-inspired UI. The app features curated YouTube video recommendations, structured learning sections, and an engaging design to make music learning both fun and aesthetic.",
     image: "/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "https://cult-music-66uodor34-kumarshivam1998s-projects.vercel.app/",
+    demoUrl: "https://cult-music-app.vercel.app",
     githubUrl: "https://github.com/kumarshivam1998/cult-music-app",
   },
   {
