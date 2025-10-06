@@ -32,14 +32,18 @@ export const ThemeToggle = () => {
     <button
       onClick={toggleTheme}
       className={cn(
-        "fixed max-sm:hidden top-5 right-5 z-50 p-2 rounded-full transition-colors duration-300",
-        "focus:outlin-hidden"
+        // Responsive position: top-right on desktop, bottom-right on mobile/tablet
+        "fixed z-50 rounded-full transition-colors duration-300 focus:outline-none",
+        "bg-background shadow-md border border-border",
+        "p-2 md:p-3", // Larger padding on desktop
+        "top-auto bottom-6 right-6 md:top-5 md:bottom-auto md:right-5", // Bottom on mobile/tablet, top on desktop
       )}
+      aria-label="Toggle theme"
     >
       {isDarkMode ? (
-        <Sun className="h-6 w-6 text-yellow-300" />
+        <Sun className="h-6 w-6 md:h-7 md:w-7 text-yellow-400" />
       ) : (
-        <Moon className="h-6 w-6 text-blue-900" />
+        <Moon className="h-6 w-6 md:h-7 md:w-7 text-blue-900" />
       )}
     </button>
   );
